@@ -23,7 +23,7 @@ if "data" not in st.session_state:
 st.markdown("# FIFA 2023 OFFICIAL DATASET! ⚽")
 st.sidebar.markdown("Desenvolvido por [Santiago Engenharia](https://santiagoengenharia.com)")
 
-btn = st.button("Acesse os dados no Kaggle")
+btn = st.button_link("Acesse os dados no Kaggle")
 if btn:
     webbrowser.open_new_tab("https://www.kaggle.com/datasets/bryanb/fifa-player-stats-database")
 
